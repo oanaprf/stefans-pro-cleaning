@@ -60,7 +60,7 @@ export default function Hero() {
           <div className="mascot-ring relative h-[380px] w-[380px] sm:h-[460px] sm:w-[460px]">
             <div className="h-full w-full overflow-hidden rounded-full bg-white">
               <Image
-                src="/hero-mascot.jpg"
+                src={`${process.env.NODE_ENV === 'production' ? '/stefans-pro-cleaning' : ''}/hero-mascot.jpg`}
                 alt="Stefan's Pro Cleaning Mascot"
                 width={460}
                 height={460}
