@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "pricing": "Precios",
+    "reviews": "Reseñas",
+    "contact": "Contacto",
+    "bookNow": "Reservar"
+  },
+  "hero": {
+    "tagline": "El equipo de limpieza favorito de Charlotte",
+    "headline": "Menos estrés,",
+    "headlineAccent": "Nosotros limpiamos el desorden",
+    "subtext": "Limpieza profesional residencial y comercial en Charlotte, NC. Resultados brillantes garantizados.",
+    "cta": "Reservar",
+    "ctaSecondary": "Ver nuestros servicios"
+  },
+  "services": {
+    "title": "Lo que hacemos mejor",
+    "subtitle": "Desde limpieza regular hasta limpieza profunda — cubrimos cada rincón.",
+    "standard": {
+      "name": "Limpieza Estándar",
+      "desc": "Mantenimiento regular para que tu hogar siempre luzca impecable."
+    },
+    "deep": {
+      "name": "Limpieza Profunda",
+      "desc": "Limpieza exhaustiva de arriba a abajo para un hogar verdaderamente brillante."
+    },
+    "moveInOut": {
+      "name": "Mudanza / Entrega",
+      "desc": "Ideal para transiciones — dejamos el espacio inmaculado."
+    },
+    "commercial": {
+      "name": "Limpieza Comercial",
+      "desc": "Limpieza de nivel profesional para oficinas y espacios de negocios."
+    },
+    "addons": {
+      "name": "Servicios Adicionales",
+      "desc": "Limpieza de ventanas, horno, nevera, lavandería y más personalizaciones."
+    }
+  },
+  "pricing": {
+    "sectionLabel": "Precios",
+    "title": "Precios Transparentes",
+    "subtitle": "Sin sorpresas — solo resultados brillantes.",
+    "tabs": {
+      "standard": "Estándar",
+      "deep": "Limpieza Profunda",
+      "move": "Mudanza"
+    },
+    "addonsTitle": "Servicios Adicionales",
+    "addons": {
+      "windowCleaning": "Limpieza interior de ventanas (c/u)",
+      "fridgeOven": "Limpieza de refrigerador / horno",
+      "cabinetInterior": "Limpieza interior de armarios",
+      "bedSheetChange": "Cambio de sábanas (por cama)",
+      "laundry": "Lavandería (por carga)"
+    },
+    "commercialNote": "¿Necesita limpieza comercial? Contáctenos para una cotización personalizada.",
+    "contactUs": "Contáctenos para precios comerciales"
+  },
+  "reviews": {
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Historias reales de propietarios de Charlotte que aman llegar a casa.",
+    "review1": {
+      "name": "Maria G.",
+      "location": "Charlotte, NC",
+      "text": "¡El equipo de Stefan transformó mi hogar! Regresé a una casa impecable con un olor increíble. Vale cada centavo — soy clienta de por vida."
+    },
+    "review2": {
+      "name": "James T.",
+      "location": "Ballantyne, Charlotte",
+      "text": "Los usé para la limpieza al mudarse y recuperé mi depósito completo. Fueron minuciosos, profesionales e increíblemente amables. ¡Muy recomendado!"
+    },
+    "review3": {
+      "name": "Priya R.",
+      "location": "SouthPark, Charlotte",
+      "text": "He probado varios servicios de limpieza en Charlotte y Stefan's Pro Cleaning es con diferencia el mejor. Calidad consistente, siempre a tiempo."
+    },
+    "review4": {
+      "name": "David L.",
+      "location": "Uptown Charlotte",
+      "text": "Limpieza profunda antes de que llegara la familia — superaron todas las expectativas. Incluso limpiaron rincones que no pedí. ¡Cinco estrellas no alcanza!"
+    }
+  },
+  "contact": {
+    "title": "¿Listo para brillar?",
+    "subtitle": "Reserve su limpieza hoy y diga adiós al estrés.",
+    "emailLabel": "Escríbenos",
+    "phoneLabel": "Llámanos",
+    "bookBtn": "Reservar ahora",
+    "availability": "Disponible Lun–Sáb · Charlotte, NC y alrededores"
+  },
+  "footer": {
+    "tagline": "Menos estrés — nosotros limpiamos el desorden.",
+    "rights": "© 2026 Stefan's Pro Cleaning. Todos los derechos reservados.",
+    "language": "Idioma"
+  },
+  "lang": {
+    "en": "EN",
+    "es": "ES",
+    "uk": "UK",
+    "ru": "RU"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "services": "Services",
+    "pricing": "Pricing",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "tagline": "Charlotte's Favorite Cleaning Crew",
+    "headline": "Stress Less,",
+    "headlineAccent": "We Clean The Mess",
+    "subtext": "Professional residential & commercial cleaning in Charlotte, NC. Sparkle-guaranteed.",
+    "cta": "Book Now",
+    "ctaSecondary": "See Our Services"
+  },
+  "services": {
+    "title": "What We Do Best",
+    "subtitle": "From routine tidying to deep scrubs — we've got every corner covered.",
+    "standard": {
+      "name": "Standard Cleaning",
+      "desc": "Regular upkeep to keep your home fresh and spotless every time."
+    },
+    "deep": {
+      "name": "Deep Cleaning",
+      "desc": "Top-to-bottom thorough clean for a truly sparkling home."
+    },
+    "moveInOut": {
+      "name": "Move In / Move Out",
+      "desc": "Perfect for transitions — we leave the space immaculate."
+    },
+    "commercial": {
+      "name": "Commercial Cleaning",
+      "desc": "Professional-grade cleaning for offices and business spaces."
+    },
+    "addons": {
+      "name": "Add-On Services",
+      "desc": "Window cleaning, oven, fridge, laundry & more customizations."
+    }
+  },
+  "pricing": {
+    "sectionLabel": "Pricing",
+    "title": "Transparent Pricing",
+    "subtitle": "No surprises — just sparkling results.",
+    "tabs": {
+      "standard": "Standard",
+      "deep": "Deep Cleaning",
+      "move": "Move In / Out"
+    },
+    "addonsTitle": "Add-On Services",
+    "addons": {
+      "windowCleaning": "Interior Window Cleaning (each)",
+      "fridgeOven": "Refrigerator / Oven Cleaning",
+      "cabinetInterior": "Cabinet Interior Cleaning",
+      "bedSheetChange": "Bed Sheet Change (per bed)",
+      "laundry": "Laundry (per load)"
+    },
+    "commercialNote": "Need commercial cleaning? Contact us for a custom quote.",
+    "contactUs": "Contact Us for Commercial Pricing"
+  },
+  "reviews": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real stories from Charlotte homeowners who love coming home.",
+    "review1": {
+      "name": "Maria G.",
+      "location": "Charlotte, NC",
+      "text": "Stefan's team transformed my home! I came back to a spotless house that smelled amazing. Absolutely worth every penny — I'm a customer for life."
+    },
+    "review2": {
+      "name": "James T.",
+      "location": "Ballantyne, Charlotte",
+      "text": "Used them for a move-out clean and got my full deposit back. They were thorough, professional, and incredibly friendly. Highly recommend!"
+    },
+    "review3": {
+      "name": "Priya R.",
+      "location": "SouthPark, Charlotte",
+      "text": "I've tried several cleaning services in Charlotte and Stefan's Pro Cleaning is by far the best. Consistent quality, always on time, always a delight."
+    },
+    "review4": {
+      "name": "David L.",
+      "location": "Uptown Charlotte",
+      "text": "Deep cleaning before family arrived — they exceeded every expectation. Even cleaned spots I didn't ask about. Five stars doesn't cover it!"
+    }
+  },
+  "contact": {
+    "title": "Ready to Sparkle?",
+    "subtitle": "Book your cleaning today and say goodbye to stress.",
+    "emailLabel": "Email Us",
+    "phoneLabel": "Call Us",
+    "bookBtn": "Book Now",
+    "availability": "Available Mon–Sat · Charlotte, NC & Surrounding Areas"
+  },
+  "footer": {
+    "tagline": "Stress less — we clean the mess.",
+    "rights": "© 2026 Stefan's Pro Cleaning. All rights reserved.",
+    "language": "Language"
+  },
+  "lang": {
+    "en": "EN",
+    "es": "ES",
+    "uk": "UK",
+    "ru": "RU"
+  }
+}
