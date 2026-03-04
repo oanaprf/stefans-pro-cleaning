@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     'move in move out cleaning',
   ],
   icons: {
-    icon: `${process.env.NODE_ENV === 'production' ? '/stefans-pro-cleaning' : ''}/hero-mascot.jpg`,
+    icon: `${process.env.NODE_ENV === 'production' ? '/stefans-pro-cleaning' : ''}/favicon.png`,
   },
 }
 
