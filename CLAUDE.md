@@ -45,7 +45,7 @@ docs/              # Documentation
 - **UI guidelines**: See `./design-principles.md`
 - **Responsive**: Mobile-first design
 - **Types**: Use TypeScript interfaces for all props
-- **Styling**: Tailwind only – no inline styles, no CSS modules
+- **Styling**: Tailwind only – no inline styles, no CSS modules, create tokens in globals and only use tokens
 - **Components**: Keep components ≤ 150 lines
 - **Security**: Sanitize all user inputs (against injections)
 - **Translations**: Use `i18next` with `en` and `ro` (default). Language is switchable from the footer.

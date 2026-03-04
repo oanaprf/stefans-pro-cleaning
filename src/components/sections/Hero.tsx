@@ -16,7 +16,7 @@ export default function Hero() {
 
       <div className="relative mx-auto flex max-w-7xl flex-col items-center gap-10 px-4 py-16 sm:px-6 lg:flex-row lg:gap-16 lg:py-24">
         {/* Left: Text */}
-        <div className="flex-1 text-center lg:text-left">
+        <div className="order-last flex-1 text-center lg:order-first lg:text-left">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
             <span className="text-sm font-semibold text-[#F6CD3A]">
               {t('hero.tagline')}
@@ -52,7 +52,7 @@ export default function Hero() {
         </div>
 
         {/* Right: Mascot image */}
-        <div className="relative flex flex-1 items-center justify-center">
+        <div className="relative order-first flex flex-1 items-center justify-center lg:order-last">
           {/* Spinning outer ring */}
           <div className="animate-spin-slow absolute h-[420px] w-[420px] rounded-full border-2 border-dashed border-[#F6CD3A]/40 sm:h-[520px] sm:w-[520px]" />
 
