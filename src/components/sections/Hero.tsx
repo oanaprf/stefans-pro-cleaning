@@ -54,10 +54,10 @@ export default function Hero() {
         {/* Right: Mascot image */}
         <div className="relative order-first flex flex-1 items-center justify-center lg:order-last">
           {/* Spinning outer ring */}
-          <div className="animate-spin-slow absolute h-[420px] w-[420px] rounded-full border-2 border-dashed border-[#F6CD3A]/40 sm:h-[520px] sm:w-[520px]" />
+          <div className="animate-spin-slow absolute h-[300px] w-[300px] rounded-full border-2 border-dashed border-[#F6CD3A]/40 sm:h-[520px] sm:w-[520px]" />
 
           {/* Glow ring */}
-          <div className="mascot-ring relative h-[380px] w-[380px] sm:h-[460px] sm:w-[460px]">
+          <div className="mascot-ring relative h-[260px] w-[260px] sm:h-[460px] sm:w-[460px]">
             <div className="h-full w-full overflow-hidden rounded-full bg-white">
               <Image
                 src={`${process.env.NODE_ENV === 'production' ? '/stefans-pro-cleaning' : ''}/hero-mascot.jpg`}
