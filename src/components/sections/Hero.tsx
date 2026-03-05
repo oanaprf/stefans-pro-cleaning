@@ -26,18 +26,14 @@ export default function Hero() {
       return
     }
 
-    const duration = Math.min(distance * 3, 8000)
+    const duration = Math.min(distance * 6, 15000)
     let startTime: number | null = null
 
     function step(timestamp: number) {
       if (!startTime) startTime = timestamp
       const elapsed = timestamp - startTime
       const progress = Math.min(elapsed / duration, 1)
-      const ease =
-        progress < 0.5
-          ? 4 * progress * progress * progress
-          : 1 - Math.pow(-2 * progress + 2, 3) / 2
-      window.scrollTo(0, start + distance * ease)
+      window.scrollTo(0, start + distance * progress)
       if (progress < 1) {
         requestAnimationFrame(step)
       } else {
