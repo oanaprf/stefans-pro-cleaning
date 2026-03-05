@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Poppins, Inter } from 'next/font/google'
 import './globals.css'
+import PwaRegistration from '@/components/PwaRegistration'
 
 const poppins = Poppins({
   variable: '--font-poppins',
@@ -16,6 +17,8 @@ const inter = Inter({
   display: 'swap',
 })
 
+const basePath = process.env.NODE_ENV === 'production' ? '/stefans-pro-cleaning' : ''
+
 export const metadata: Metadata = {
   title: "Stefan's Pro Cleaning | Charlotte Residential & Commercial Cleaning",
   description:
@@ -28,7 +31,14 @@ export const metadata: Metadata = {
     'move in move out cleaning',
   ],
   icons: {
-    icon: `${process.env.NODE_ENV === 'production' ? '/stefans-pro-cleaning' : ''}/favicon.png`,
+    icon: `${basePath}/favicon.png`,
+    apple: `${basePath}/icons/icon-192.png`,
+  },
+  manifest: `${basePath}/manifest.json`,
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: "Stefan's Pro Cleaning",
   },
 }
 
@@ -39,7 +49,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <PwaRegistration />
+      </body>
     </html>
   )
 }

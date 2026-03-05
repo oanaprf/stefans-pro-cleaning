@@ -1,0 +1,25 @@
+{
+  "name": "Stefan's Pro Cleaning",
+  "short_name": "Stefan's Cleaning",
+  "description": "Professional residential and commercial cleaning services in Charlotte, NC.",
+  "start_url": "/stefans-pro-cleaning/",
+  "scope": "/stefans-pro-cleaning/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/stefans-pro-cleaning/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/stefans-pro-cleaning/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
