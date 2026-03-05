@@ -2,10 +2,52 @@
 
 import { useTranslation } from 'react-i18next'
 import Image from 'next/image'
+import { useRef } from 'react'
 import SparkleIcon from '@/components/ui/SparkleIcon'
 
 export default function Hero() {
   const { t } = useTranslation()
+  const scrollingRef = useRef(false)
+
+  function handleImageClick() {
+    if (scrollingRef.current) return
+    scrollingRef.current = true
+
+    const html = document.documentElement
+    html.style.scrollBehavior = 'auto'
+
+    const start = window.scrollY
+    const end = html.scrollHeight - window.innerHeight
+    const distance = end - start
+
+    if (distance <= 0) {
+      html.style.scrollBehavior = ''
+      scrollingRef.current = false
+      return
+    }
+
+    const duration = Math.min(distance * 3, 8000)
+    let startTime: number | null = null
+
+    function step(timestamp: number) {
+      if (!startTime) startTime = timestamp
+      const elapsed = timestamp - startTime
+      const progress = Math.min(elapsed / duration, 1)
+      const ease =
+        progress < 0.5
+          ? 4 * progress * progress * progress
+          : 1 - Math.pow(-2 * progress + 2, 3) / 2
+      window.scrollTo(0, start + distance * ease)
+      if (progress < 1) {
+        requestAnimationFrame(step)
+      } else {
+        html.style.scrollBehavior = ''
+        scrollingRef.current = false
+      }
+    }
+
+    requestAnimationFrame(step)
+  }
 
   return (
     <section className="gradient-hero relative min-h-screen overflow-hidden pt-24">
@@ -52,12 +94,12 @@ export default function Hero() {
         </div>
 
         {/* Right: Mascot image */}
-        <div className="relative order-first flex flex-1 items-center justify-center lg:order-last">
+        <div className="relative order-first flex flex-1 items-center justify-center lg:order-last" onClick={handleImageClick}>
           {/* Spinning outer ring */}
           <div className="animate-spin-slow absolute h-[300px] w-[300px] rounded-full border-2 border-dashed border-[#F6CD3A]/40 sm:h-[520px] sm:w-[520px]" />
 
           {/* Glow ring */}
-          <div className="mascot-ring relative h-[260px] w-[260px] sm:h-[460px] sm:w-[460px]">
+          <div className="mascot-ring relative h-[260px] w-[260px] cursor-pointer sm:h-[460px] sm:w-[460px]">
             <div className="h-full w-full overflow-hidden rounded-full bg-white">
               <Image
                 src={`${process.env.NODE_ENV === 'production' ? '/stefans-pro-cleaning' : ''}/hero-mascot.jpg`}
